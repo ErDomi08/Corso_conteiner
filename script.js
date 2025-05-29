@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let seconds = 0;
     
     // Emoji da utilizzare come simboli delle carte
-    const symbols = ['👌🏼', '🍌', '🍒', '🍪', '🥈', '🥝', '🎱', '🎌', '🐦‍⬛','🏎️','❤️','🤯'];
+    const symbols = ['👌🏼', '🍌', '🍒', '🍪', '🥈', '🥝', '🎱', '🎌', '🐦‍⬛','🏎️','❤️','🤯','😒','😎','👯‍♀️','✌️'];
     
     // Inizializza il gioco
     function initGame() {
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (matchedPairs === symbols.length) {
                 setTimeout(() => {
                     clearInterval(timerInterval);
-                    alert(`Hai vinto! Hai completato il gioco in ${moves} mosse e ${seconds} secondi.`);
+                    alert(`Hai vinto! Hai completato il gioco in ${moves} mosse e ${seconds} millisecondi.`);
                 }, 500);
             }
         } else {
